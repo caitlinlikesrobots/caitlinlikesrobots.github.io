@@ -48,28 +48,56 @@ figure {
 	</div>
 	</div>
 	<section style="background-color:#d699ff; color:#3d0066; padding:20px;">
-		<table border=1>
- 			 <tr>
-    			<th>Animal</th>
-    			<th>Attributes</th>
-    			<th>Name Suggestion</th>
-  			</tr>
-  			<tr>
-    			<td>Capybara</td>
-    			<td>Large Hamster</td>
-    			<td>Gloria</td>
-  			</tr>
-  			<tr>
-    			<td>Seadragon</td>
-    			<td>Has Leaves</td>
-    			<td>Hilliard</td>
-  			</tr>
-  			<tr>
-    			<td>Angora Rabbit</td>
-    			<td>A Rabbit Cloud</td>
-    			<td>Countess Von Tisdale</td>
-  			</tr>
-		</table>
+	<!DOCTYPE html>
+<html>
+<head>
+  <title>Life Form</title>
+</head>
+<body>
+<h1 style= "color: #00b300">Life Form</h1>
+<form name="adventure" action="success.html" method="post">
+  <fieldset>
+    <div>
+      <label style= "color: #00b300">Full name:</label>
+      <input type="text" name="fullname" style="color: #9933ff; background-color: #99ff99">
+    </div>
+
+    <div>
+      <label style= "color: #00b300">Age:</label>
+      <input type="text" name="age" style="color: #9933ff; background-color: #99ff99">
+    </div>
+
+    <div>
+      <label style= "color: #00b300">What color is your water?</label>
+      <input type="color" name="waterColor" style="color: #9933ff; background-color: #99ff99"> 
+    </div>
+  </fieldset>
+  <textarea name="textarea" rows="10" cols="50" style="color: #9933ff; background-color: #99ff99">Tell Me Something New</textarea>
+  <fieldset>
+    <div>
+      <label style= "color: #00b300">Choose your guide now.</label>
+      <input type="text" name="guide" placeholder="Name your guide" style="color: #9933ff; background-color: #99ff99">
+    </div>
+
+    <div>
+      <label style= "color: #00b300">Spirit Animal:</label>
+      <select name="animal">
+        <option value="owl">Owl</option>
+        <option value="carpet">Carpet</option>
+        <option value="basic">Basic</option>
+      </select>
+    </div>
+
+    <div>
+      <input type="checkbox" name="cb-agree" value="agree" style="color: #00b300">
+      I understand this endeavor.
+    </div>
+  </fieldset>
+  
+  <button type="submit">Save me</button>
+</form>
+</body>
+</html>
 	</section>
 </body>
 </html>
