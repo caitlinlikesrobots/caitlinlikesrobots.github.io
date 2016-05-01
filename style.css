@@ -1,0 +1,88 @@
+
+#bg {
+    background-image: url("capybara.png");
+    background-size: cover;  
+  	position: absolute;
+    width: 100%;
+    background-position: center;
+    top: 0; 
+    left: 0;
+  	
+}
+
+.image {
+  display: inline-block;
+  width: 150px;
+  height: 75px;
+  float: right;
+  margin: 7%;
+ 
+}
+textarea {
+  font-size: .8em;
+  color: #407250;
+}
+
+#page-title {
+	font-family: helvetica;
+	font-size: 2.4em;
+  text-align: center;
+  color: #511E66;
+  
+}
+h2 {
+  font-family: helvetica;
+  font-size: 1.8em;
+  color: #2A1D30;
+  text-align: center;
+
+}
+
+p {
+  font-family: Arial;
+  font-size: 1em;
+  margin: 5%;
+  padding: 5%;
+  line-height: 180%;
+  color: #362C3A;
+} 
+
+figcaption {
+	font-family: helvetica;
+	font-size: .8em;
+  color: #511E66;
+}
+
+#capylist {
+  font-family: helvetica;
+  font-size: 1.5em;;
+  color: #3d0066;
+  background-color: #C58EDC;
+  opacity: .6;
+  margin: 5%;
+  padding: 5%;
+
+}
+
+#sounds {
+  font-size: .8em;
+}
+
+h1 {
+  text-align: center;
+}
+
+#form {
+  font-size: 1.4em;
+  font-family: helvetica;
+  position: relative;
+  background-color: #5AAF9E;
+  border: 0px solid;
+  opacity: .6;
+  color: #511E66;
+  margin: 5%;
+  padding: 5%;
+  text-align: center;
+  
+}
+
